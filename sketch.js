@@ -25,7 +25,8 @@ function setup() {
 
 
 function draw() {  
- 
+  background(46, 139, 87)
+  
  if(keyWentDown(UP_ARROW)){
    writeStock(foodVal);
    dog.addImage(happyDog);
